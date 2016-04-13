@@ -1,3 +1,5 @@
+[![choobs github io](https://cloud.githubusercontent.com/assets/11091761/14496142/847fe45a-0192-11e6-9abd-323a07d70e50.png)](https://choobs.github.io)
+
 Choobs Ltd. homepage on github.com with all social links.
 
 * GitHub: https://github.com/choobs
