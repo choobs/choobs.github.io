@@ -1,0 +1,10 @@
+image: jekyll/jekyll:pages
+
+pages:
+  script:
+  - jekyll build -d public/
+  artifacts:
+    paths:
+    - public
+  only:
+  - master 
