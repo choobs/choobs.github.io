@@ -44,10 +44,14 @@ permalink: /
             <h3>{{ site.description }}</h3>
 
                 <ul>
+                    {% if site.website %}
+                    <li><a class="fa fa-2x fa-globe" href="{{ site.website }}"><span class="description">Website</span></a></li>
+                    {% endif %}
+
                     {% if site.github_username %}
                     <li><a class="fa fa-2x fa-github" href="https://github.com/{{ site.github_username }}"><span class="description">GitHub</span></a></li>
                     {% endif %}
-
+                    
                     {% if site.gitlab_username %}
                     <li><a class="fa fa-2x fa-gitlab" href="https://gitlab.com/{{ site.gitlab_username }}"><span class="description">GitLab</span></a></li>
                     {% endif %}									
